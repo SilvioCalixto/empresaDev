@@ -1,0 +1,18 @@
+nav {
+  background-color: lightseagreen;
+  font-size: 18px;
+}
+
+.button:hover {
+  background-color: #3fadff;
+}
+
+.carousel-caption {
+  margin-bottom: 190px;
+}
+
+main {
+  text-align: center;
+  margin: 20px 0;
+  font-family: 'Calibri',Helvetica, sans-serif;
+}
