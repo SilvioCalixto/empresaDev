@@ -1,42 +1,73 @@
-nav {
-  background-color: #0d101e;
-  font-size: 18px;
+/* Carousel styling */
+#introCarousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item.active {
+  height: 100vh;
 }
 
-.button:hover {
-  background-color: #3fadff;
+.carousel-item:nth-child(1) {
+  background-image: url('../imagens/wireframe.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
-a {
-  text-decoration: none;
+.carousel-item:nth-child(2) {
+  background-image: url('../imagens/produtividade.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
-.carousel-caption {
-  margin-bottom: 190px;
+.carousel-item:nth-child(3) {
+  background-image: url('../imagens/telas.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
-main {
-  text-align: center;
-  margin: 20px 0;
-  font-family: 'Calibri',Helvetica, sans-serif;
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+  #introCarousel {
+    margin-top: -58.59px;
+  }
 }
 
-
-
-.row {
-  width: 95%;
-  margin-top: 20px;
+.main-image {
+  border-radius: 50%;
+  border: 2px solid hsl(0, 0%, 85%);
+  padding: 20px;
 }
 
-.card {
-  text-align:center;
-  margin: 20px;
+.fade {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  padding: auto;
+  animation-name: fade-in;
 }
 
-footer{
-  background-color: #0d101e;
+.fade-delay-1 {
+  animation-delay: 0.2s;
 }
 
-footer a,footer div,footer section,footer p {
-  color: white;
+.fade-delay-2 {
+  animation-delay: 0.4s;
+}
+.fade-delay-3 {
+  animation-delay: 0.6s;
+}
+.fade-delay-4 {
+  animation-delay: 0.8s;
+}
+.fade-delay-5 {
+  animation-delay: 1s;
+}
+@keyframes slidein {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
