@@ -2,9 +2,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nova Dev Solutions</title>
+    <title>Equipe - NovaDev</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Storm&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -47,7 +50,7 @@ style="height: 1100px; width: 100%; z-index: -10"
 <defs>
 <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
  <stop stop-color="hsl(217, 81%, 98.1%)" offset="0%"></stop>
- <stop stop-color="hsl(217, 81%, 94.1%)" offset="100%"></stop>
+ <stop stop-color="hsl(210, 1%, 61%)" offset="100%"></stop>
 </linearGradient>
 </defs>
 <path
@@ -63,7 +66,7 @@ style="height: 1100px; width: 100%; z-index: -10"
 <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
   <div class="container-fluid">
     <!-- Navbar brand -->
-    <a class="navbar-brand nav-link" target="_blank" href="index.html">
+    <a class="navbar-brand nav-link novaDev" href="index.html">
       <strong>NovaDev</strong>
     </a>
     <button class="navbar-toggler" type="button" data-mdb-collapse-init data-mdb-target="#navbarExample01"
@@ -72,41 +75,38 @@ style="height: 1100px; width: 100%; z-index: -10"
     </button>
     <div class="collapse navbar-collapse" id="navbarExample01">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" aria-current="page" href="#intro">Home</a>
-        </li>
         <li class="nav-item">
-          <a class="nav-link" href="servicos.html" rel="nofollow"
-            target="_blank">Serviços</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contato.html" target="_blank">Contato</a>
-        </li>
+            <a class="nav-link" aria-current="page" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="servicos.html" rel="nofollow">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato.html">Equipe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sobre.html">Sobre</a>
+          </li>
       </ul>
 
       <ul class="navbar-nav list-inline">
         <!-- Icons -->
-        <li class="">
-          <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow"
-            target="_blank">
-            <i class="fab fa-youtube"></i>
-          </a>
-        </li>
-        <li class="">
-          <a class="nav-link" href="https://www.facebook.com/mdbootstrap" rel="nofollow" target="_blank">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://twitter.com/MDBootstrap" rel="nofollow" target="_blank">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/mdbootstrap/mdb-ui-kit" rel="nofollow" target="_blank">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
+            <a class="nav-link" href="https://github.com/SilvioCalixto" rel="nofollow" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li class="">
+            <a class="nav-link" href="https://www.instagram.com/calixto_silvio/" rel="nofollow" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li class="">
+            <a class="nav-link" href="https://www.linkedin.com/in/silviocalixto/" rel="nofollow"
+              target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
       </ul>
     </div>
   </div>
@@ -118,10 +118,11 @@ style="height: 1100px; width: 100%; z-index: -10"
 <!--Main layout-->
 <main>
 <div class="container">
+  
 <!-- Section: Intro -->
 <section class="text-center text-black mb-8 fade fade-delay-1">
- <h1 class="mb-4">John Doe</h1>
- <h2>Web Developer, UX/UI Designer</h2>
+ <h1 class="mb-4 silvio" style="padding-top: 20px;">Silvio Calixto</h1>
+ <h4>Fundador & Desenvolvedor Full Stack</h4>
 </section>
 <!-- Section: Intro -->
 
@@ -136,26 +137,25 @@ style="height: 1100px; width: 100%; z-index: -10"
                fade fade-delay-2
                "
         >
-     <p class="text-muted text-uppercase ls-wide mb-2">Biography</p>
+     <p class="text-muted text-uppercase ls-wide mb-2">Biografia</p>
      <p class="mb-5">
-       Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-       Repellat maxime ad, accusantium corrupti voluptate beatae
-       sapiente explicabo neque numquam doloribus iste aut. Eligendi
-       molestias possimus aut, rem id architecto quam.
+        Desenvolvedor Full Stack e fundador da <strong>NovaDev Solutions</strong>, 
+        atuando no desenvolvimento de sites, sistemas web e soluções digitais sob medida.
+  
+        Possui experiência na construção de aplicações utilizando HTML, CSS, JavaScript e PHP, 
+        além da utilização de WordPress para projetos institucionais e e-commerce.
+  
+        Seu trabalho é focado em criar soluções funcionais, bem estruturadas e com foco em desempenho, 
+        sempre buscando atender às necessidades reais de cada projeto.
      </p>
 
-     <p class="text-muted text-uppercase ls-wide mb-2">Contact</p>
+     <p class="text-muted text-uppercase ls-wide mb-2">Soluções</p>
      <p class="mb-5">
-       New York, <br />
-       myemail@example.com <br />
-       +12 345 678 901
-     </p>
-
-     <p class="text-muted text-uppercase ls-wide mb-2">Services</p>
-     <p class="mb-5">
-       Web design <br />
-       Web development <br />
-       Consulting
+      Sites institucionais e landing pages <br />
+      Sistemas web sob medida <br />
+      E-commerce com WordPress & WooCommerce <br />
+      Integrações e automações <br />
+      Performance e responsividade
      </p>
    </div>
 
@@ -176,24 +176,24 @@ style="height: 1100px; width: 100%; z-index: -10"
                "
         >
      <p class="text-muted text-uppercase ls-wide mb-2">
-       Years of experience
+       Especialidade
      </p>
-     <p class="mb-5 h1">6</p>
+     <p class="mb-5">Desenvolvimento Full Stack</p>
 
      <p class="text-muted text-uppercase ls-wide mb-2">
-       Satisfied customers
+       Diferencial
      </p>
-     <p class="mb-5 h1">54</p>
+     <p class="mb-5 ">Foco em performance</p>
 
      <p class="text-muted text-uppercase ls-wide mb-2">
-       Commercial projects
+       Metodologia
      </p>
-     <p class="mb-5 h1">167</p>
+     <p class="mb-5 ">Código limpo & responsivo</p>
 
      <p class="text-muted text-uppercase ls-wide mb-2">
-       Side projects
+       Objetivo
      </p>
-     <p class="mb-5 h1">84</p>
+     <p class="mb-5 ">Gerar resultados reais</p>
    </div>
  </div>
 </section>
@@ -201,125 +201,207 @@ style="height: 1100px; width: 100%; z-index: -10"
 </div>
 </main>
 <!--Main layout-->
+   <div class="container my-5" style="padding-top: 100px;">
+  <div class="shadow-4 rounded-5 overflow-hidden">
+    <table class="table align-middle mb-0 bg-white">
+      <thead class="bg-light">
+        <tr>
+          <th>Nome</th>
+          <th>Especialidade</th>
+          <th>Status</th>
+          <th>Nível</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <div class="d-flex align-items-center">
+              <img
+                   src="imagens/silvio.jpeg"
+                   alt=""
+                   style="width: 45px; height: 45px"
+                   class="rounded-circle"
+                   />
+              <div class="ms-3">
+                <p class="fw-bold mb-1">Silvio Calixto</p>
+                <p class="text-muted mb-0">silvio.calixto.sc@gmail.com</p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <p class="fw-bold mb-1">Full Stack Developer & Founder</p>
+            <p class="text-muted mb-0">Departamento Ti/ Administrativo</p>
+          </td>
+          <td>
+            <span class="badge badge-success rounded-pill">Active</span>
+          </td>
+          <td>Senior</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="d-flex align-items-center">
+              <img
+                   src="https://mdbootstrap.com/img/new/avatars/6.jpg"
+                   class="rounded-circle"
+                   alt=""
+                   style="width: 45px; height: 45px"
+                   />
+              <div class="ms-3">
+                <p class="fw-bold mb-1">Alex Ray</p>
+                <p class="text-muted mb-0">alex.ray@gmail.com</p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <p class="fw-normal mb-1">Backend Developer</p>
+            <p class="text-muted mb-0">APIs & Sistemas</p>
+          </td>
+          <td>
+            <span class="badge badge-primary rounded-pill">Active</span>
+          </td>
+          <td>Pleno</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="d-flex align-items-center">
+              <img
+                   src="https://mdbootstrap.com/img/new/avatars/7.jpg"
+                   class="rounded-circle"
+                   alt=""
+                   style="width: 45px; height: 45px"
+                   />
+              <div class="ms-3">
+                <p class="fw-bold mb-1">Kate Hunington</p>
+                <p class="text-muted mb-0">kate.hunington@gmail.com</p>
+              </div>
+            </div>
+          </td>
+          <td>
+            <p class="fw-normal mb-1">UI/UX Designer & Frontend</p>
+            <p class="text-muted mb-0">Experiência do usuário</p>
+          </td>
+          <td>
+            <span class="badge badge-warning rounded-pill">Active</span>
+          </td>
+          <td>Junior</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
    
-   
-   <!-- Footer -->
-    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
-      <!-- Section: Social media -->
-      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-        <!-- Left -->
-        <div class="me-5 d-none d-lg-block">
-          <span>Get connected with us on social networks:</span>
-        </div>
-        <!-- Left -->
-    
-        <!-- Right -->
-        <div>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-google"></i>
-          </a>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="" class="me-4 text-reset">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-        <!-- Right -->
-      </section>
-      <!-- Section: Social media -->
-    
-      <!-- Section: Links  -->
-      <section class="">
-        <div class="container text-center text-md-start mt-5">
-          <!-- Grid row -->
-          <div class="row mt-3">
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-              <!-- Content -->
-                <img src="imagens/logoNovaDev.png" alt="" width="300px">
-           
-            </div>
-            <!-- Grid column -->
-    
-            <!-- Grid column -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-              <!-- Links -->
-              <h6 class="text-uppercase fw-bold mb-4">
-                Products
-              </h6>
-              <p>
-                <a href="#!" class="text-reset">Angular</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">React</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Vue</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Laravel</a>
-              </p>
-            </div>
-            <!-- Grid column -->
-    
-            <!-- Grid column -->
-            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <!-- Links -->
-              <h6 class="text-uppercase fw-bold mb-4">
-                Useful links
-              </h6>
-              <p>
-                <a href="#!" class="text-reset">Pricing</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Settings</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Orders</a>
-              </p>
-              <p>
-                <a href="#!" class="text-reset">Help</a>
-              </p>
-            </div>
-            <!-- Grid column -->
-    
-            <!-- Grid column -->
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-              <!-- Links -->
-              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-              <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-              <p>
-                <i class="fas fa-envelope me-3"></i>
-                info@example.com
-              </p>
-              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
-            </div>
-            <!-- Grid column -->
-          </div>
-          <!-- Grid row -->
-        </div>
-      </section>
-      <!-- Section: Links  -->
-    
-      <!-- Copyright -->
-      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-        NovaDev© 2026 Copyright: Desenvolvido por
-        <a class="text-reset fw-bold" href="https://github.com/SilvioCalixto">Silvio Calixto</a>
-      </div>
-      <!-- Copyright -->
-    </footer>
     <!-- Footer -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"></script>
-      </body>
-    </html>
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <!-- Section: Social media -->
+  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span>Acompanhe a novaDev nas redes sociais:</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+      <a href="https://github.com/SilvioCalixto" class="me-4 text-reset" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.instagram.com/calixto_silvio/" class="me-4 text-reset" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/silviocalixto/" class="me-4 text-reset" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+            <img src="imagens/novologo.png" alt="" width="300px">
+       
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Tecnologias
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">PHP</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Laravel</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">JavaScript</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Links úteis
+          </h6>
+          <p>
+            <a href="index.html" class="text-reset">Início</a>
+          </p>
+          <p>
+            <a href="servicos.html" class="text-reset">Serviços</a>
+          </p>
+          <p>
+            <a href="contato.html" class="text-reset">Equipe</a>
+          </p>
+          <p>
+            <a href="sobre.html" class="text-reset">Sobre</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">Contatos</h6>
+          <p><i class="fas fa-home me-3"></i> F. de Mascarenhas, Santo André - SP</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            silvio.calixto.sc@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> (11) 96107-7860</p>
+          <p><i class="fa-solid fa-comment me-3"></i> (11) 96107-7860</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    NovaDev© 2026 Copyright: Desenvolvido por
+    <a class="text-reset fw-bold" href="https://github.com/SilvioCalixto">Silvio Calixto</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js">
+  import { Input, Ripple, initMDB } from "mdb-ui-kit";
+
+  initMDB({ Input, Ripple });
+</script>
+  </body>
+</html>

@@ -1,3 +1,16 @@
+.novaDev {
+  font-family: "Rubik Storm", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.silvio {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
 /* Carousel styling */
 #introCarousel,
 .carousel-inner,
@@ -38,6 +51,7 @@
   border-radius: 50%;
   border: 2px solid hsl(0, 0%, 85%);
   padding: 20px;
+  color: hsl(210, 1%, 61%);
 }
 
 .fade {
