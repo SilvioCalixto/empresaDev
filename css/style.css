@@ -6,8 +6,7 @@
 
 .silvio {
   font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: weight;
+  font-weight: 400; /* ou 700 */
   font-style: normal;
 }
 
@@ -77,7 +76,7 @@
 .fade-delay-5 {
   animation-delay: 1s;
 }
-@keyframes slidein {
+@keyframes fade-in {
   0% {
     opacity: 0;
   }
@@ -85,3 +84,8 @@
     opacity: 1;
   }
 }
+.navbar .nav-link,
+.navbar-brand {
+  color: #fff !important;
+}
+
