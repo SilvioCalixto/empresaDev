@@ -89,3 +89,21 @@
   color: #fff !important;
 }
 
+/* MENU MOBILE PADRÃO */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: rgba(94, 87, 87, 0.95); /* fundo escuro */
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .navbar .nav-link {
+    color: #fff !important;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .navbar-toggler {
+    border-color: #fff;
+  }
+}
