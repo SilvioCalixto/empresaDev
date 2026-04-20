@@ -307,22 +307,22 @@
       <h4 class="mb-5 text-center"><strong>Faça seu orçamento com a <u>NovaDev</u> hoje mesmo!</strong></h4>
 
       <div class="row d-flex justify-content-center">
-        <form style="width: 26rem;">
+        <form action="https://formsubmit.co/silvio.calixto.sc@gmail.com" method="POST" style="width: 26rem;">
   <!-- Name input -->
   <div data-mdb-input-init class="form-outline mb-4">
-    <input type="text" id="form4Example1" class="form-control" />
+    <input type="text" id="form4Example1" class="form-control" name="nome"/>
     <label class="form-label" for="form4Example1">Nome</label>
   </div>
 
   <!-- Email input -->
   <div data-mdb-input-init class="form-outline mb-4">
-    <input type="email" id="form4Example2" class="form-control" />
+    <input type="email" id="form4Example2" class="form-control" name="email"/>
     <label class="form-label" for="form4Example2">Endereço de E-mail</label>
   </div>
 
   <!-- Message input -->
   <div data-mdb-input-init class="form-outline mb-4">
-    <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+    <textarea class="form-control" id="form4Example3" rows="4" name="mensagem"></textarea>
     <label class="form-label" for="form4Example3">Detalhes do projeto...</label>
   </div>
 
@@ -341,7 +341,7 @@
   </div>
 
   <!-- Submit button -->
-  <button data-mdb-ripple-init type="button" class="btn btn-primary btn-block mb-4">Enviar</button>
+  <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block mb-4">Enviar</button>
 </form>
       </div>
     </section>
